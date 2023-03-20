@@ -4,7 +4,7 @@ import SwiftUI
 struct UITest_ExampleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            UITestingBootcampView(currentUserIsSignedIn: false)
         }
     }
 }
