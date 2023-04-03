@@ -145,6 +145,7 @@
 				D03A43DA29AFE8FB002D1D90 /* Sources */,
 				D03A43DB29AFE8FB002D1D90 /* Frameworks */,
 				D03A43DC29AFE8FB002D1D90 /* Resources */,
+				D0292A3C29DB2AF8001D8242 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -290,6 +291,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D0292A3C29DB2AF8001D8242 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/newInputFile",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = "/bin/sh//Users/amajdoudeh/Library/Developer/Xcode/DerivedData/UITest-Example-fnfwclzpetvvhadvjeeuyoouwndu/Build/Products/Debug-iphonesimulator/UITest-ExampleUITests-Runner.app/PlugIns/UITest-ExampleUITests.xctest/UITest-ExampleUITests";
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D03A43DA29AFE8FB002D1D90 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -350,6 +372,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEPLOYMENT_LOCATION = YES;
 				DEVELOPMENT_TEAM = P569KTXYRS;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
@@ -368,6 +391,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEPLOYMENT_LOCATION = YES;
 				DEVELOPMENT_TEAM = P569KTXYRS;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;

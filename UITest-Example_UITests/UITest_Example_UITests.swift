@@ -1,10 +1,3 @@
-//
-//  UITest_Example_UITests.swift
-//  UITest-Example_UITests
-//
-//  Created by Amjad Oudeh on 01.03.23.
-//
-
 import XCTest
 
 final class UITest_Example_UITests: XCTestCase {
